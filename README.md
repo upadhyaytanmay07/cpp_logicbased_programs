@@ -1,14 +1,15 @@
-Aim: To study and implement C++ decision making statements
+## Aim: 
+To study and implement C++ decision making statements
 
-Software Required:
+# Software Required:
 Visual Studio
 
-Theory:
+# Theory:
 
 Decision-making is the process to make a decision about which part of the code should be executed or not based on some condition. Decision-making in C++ involves the usage of conditional statements (also called decision control statements) to execute specific blocks of code primarily based on given situations and their results.
 
 
-if Statement: 
+# if Statement: 
 
 In C++, the if statement is the simplest decision-making statement. It allows the execution of a block of code if the given condition is true. The body of the if statement is executed only if the given condition is true.
 
@@ -20,7 +21,7 @@ Nested if else The nested if else statement contains an 'if' statement inside an
 
 Switch Statement In C++, the switch statement is used when multiple situations need to be evaluated primarily based on the value of a variable or an expression. switch statement acts as an alternative to multiple if statements or if-else ladder and has a cleaner structure and it is easy for handling multiple conditions.
 
-Implementation:
+# Implementation:
 
 Based on the above decision making statements in C++ , Simple programs have been used to help understand how decision making statements work in c++. The programs are:
 
@@ -35,10 +36,10 @@ Making a Calculator using Switch Case
 Made a basic Hostel fee structure using Switch Case
 
 
-Algorihtms:
+# Algorihtms:
 
 
-Program 1:
+# Program 1:
 
 Objective: To determine whether a user-entered number is even or odd.
 
@@ -61,7 +62,8 @@ Else:
 Display "This is an Odd number"
 
 End
-Program 2:
+
+# Program 2:
 
 Objective: To determine whether the character entered by the user is a vowel or a consonant.
 
@@ -86,7 +88,8 @@ Else:
 Display "The Character entered is a Consonant"
 
 End
-Program 3
+
+# Program 3
 
 Objective:
 
@@ -114,7 +117,7 @@ Display the largest number (num)
 
 End
 
-Program 4:
+# Program 4:
 
 Objective: To perform one of four basic arithmetic operations—Addition, Subtraction, Multiplication, or Division—based on user input.
 
@@ -156,7 +159,7 @@ Display the result of the selected operation
 
 End
 
-Program 5:
+# Program 5:
 
 Objective : to display hostel fees based on user choice
 
@@ -233,7 +236,9 @@ You may optionally add error handling to notify users if the input is invalid.
 8. END
 Terminate the program after executing the selected case.
 
-Program 6: to display days of the week using switch case
+# Program 6:
+
+Objective : to display days of the week using switch case
 
 1. START Begin the execution of the program.
 
