@@ -4,10 +4,13 @@ Software Required:
 Visual Studio
 
 Theory:
+
 Decision-making is the process to make a decision about which part of the code should be executed or not based on some condition. Decision-making in C++ involves the usage of conditional statements (also called decision control statements) to execute specific blocks of code primarily based on given situations and their results.
 
 
-if Statement: In C++, the if statement is the simplest decision-making statement. It allows the execution of a block of code if the given condition is true. The body of the if statement is executed only if the given condition is true.
+if Statement: 
+
+In C++, the if statement is the simplest decision-making statement. It allows the execution of a block of code if the given condition is true. The body of the if statement is executed only if the given condition is true.
 
 if-else Statement The if else is a decision-making statement allows us to make a decision based on the evaluation of a given condition. If the given condition evaluates to true then the code inside the 'if' block is executed and in case the condition is false, the code inside the 'else' block is executed.
 
@@ -18,13 +21,18 @@ Nested if else The nested if else statement contains an 'if' statement inside an
 Switch Statement In C++, the switch statement is used when multiple situations need to be evaluated primarily based on the value of a variable or an expression. switch statement acts as an alternative to multiple if statements or if-else ladder and has a cleaner structure and it is easy for handling multiple conditions.
 
 Implementation:
+
 Based on the above decision making statements in C++ , Simple programs have been used to help understand how decision making statements work in c++. The programs are:
 
 Odd-Even check
+
 Vowel Check
+
 Finding the largest number from three given numbers by the user
+
 Making a Calculator using Switch Case
-Made a basic banking system using Switch Case
+
+Made a basic Hostel fee structure using Switch Case
 
 
 Algorihtms:
