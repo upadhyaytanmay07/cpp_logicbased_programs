@@ -232,3 +232,58 @@ You may optionally add error handling to notify users if the input is invalid.
 
 8. END
 Terminate the program after executing the selected case.
+
+Program 6: to display days of the week using switch case
+
+1. START Begin the execution of the program.
+
+2. INCLUDE REQUIRED HEADER Include the iostream library to enable input/output operations:
+
+#include<iostream>
+3. USE STANDARD NAMESPACE Use the standard namespace to simplify usage of built-in objects like cin and cout
+
+using namespace std;
+4. DECLARE VARIABLES Declare an integer variable named choice to store the user's input.
+
+5. DISPLAY MENU TO USER Print the list of days of the week with numbered options:
+
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+Saturday
+
+Sunday
+
+Prompt the user to enter a number corresponding to a day.
+
+6. ACCEPT USER INPUT Read the user’s input and store it in the variable choice:
+
+cin >> choice;
+7. EVALUATE INPUT USING SWITCH CASE Use a switch(choice) statement to check the value entered:
+
+Case 1: Print "Monday"
+
+Case 2: Print "Tuesday"
+
+Case 3: Print "Wednesday"
+
+Case 4: Print "Thursday"
+
+Case 5: Print "Friday"
+
+Case 6: Print "Saturday"
+
+Case 7: Print "Sunday"
+
+Default: If the input doesn’t match any of the cases, print "Invalid choice"
+
+Each case ends with a break; statement to prevent fall-through.
+
+8. END PROGRAM Return 0 from main() to indicate successful completion.
