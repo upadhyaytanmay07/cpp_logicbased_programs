@@ -2,31 +2,27 @@
 
 #include<iostream>
 using namespace std;
-//program to find positive or negative number
-int main()
+int main(){
+int n;
+cout <<"Enter a number ";
+cin >> n;
+if (n%2==0)
 {
-    int num1;
-    cout<<"enter the number : ";
-    cin>>num1;
+    cout<<"This is an even number";
 
-    if(num1<0)
-    {
-        cout<<"\n the number is negative ";
-    }
-    else if (num1>0)
-    {
-        cout<<"\n the number is positive";
-
-    }
-    else
-    {
-        cout<<"the number is zero";
-    }
 }
-
-/* output of this code
-
-enter the number : 14
+else
+{
+    cout<<"This is an Odd number";
+}
+}
+/*
+Output:
+Enter a number 4
+This is an even number
+Enter a number 5
+This is an Odd number
+*/
 
  the number is positive
 
